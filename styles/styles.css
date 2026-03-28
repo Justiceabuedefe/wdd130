@@ -1,39 +1,122 @@
-/* Limit the width of the main element */
-main {
-    max-width: 840px;
+:root {
+    --primary-color: #1b4965;
+    --secondary-color: #2c3e70;
+    --accent1-color: rgba(27, 73, 101, 0.85);
+    --accent2-color: #ffffff;
+
+    --heading-font: Arial, sans-serif;
+    --body-font: Verdana, sans-serif;
 }
 
-/* Style the aside section */
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-/* Image inside aside */
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-/* Profile image inside main */
-main img {
-    width: 150px;
-    height: auto;
-}
-
-/* Paragraph padding */
-p {
+/* RESET */
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Footer styling */
+/* BODY */
+body {
+    font-family: var(--body-font);
+}
+
+/* LAYOUT */
+header,
+main,
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 120px;
+}
+
+/* NAV */
+nav ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+/* HERO TITLE BAR */
+.hero h1 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
     text-align: center;
+    padding: 15px;
+    background-color: var(--accent1-color);
+    color: white;
+    font-size: 2rem;
+}
+
+/* HERO ARTICLE BOX */
+.hero article {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    right: 40px;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 15px;
+}
+
+/* SMALL IMAGE */
+.hero article img {
+    float: right;
+    width: 120px;
+    margin-left: 10px;
+}
+
+/* SECTION TITLES */
+.section-title {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* TEXT */
+section p {
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* SOCIAL MEDIA */
+.socialmedia img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }

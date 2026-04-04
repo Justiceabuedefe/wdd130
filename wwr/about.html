@@ -15,12 +15,14 @@
 
     <!-- HEADER -->
     <header>
-        <img src="images/logo.png" alt="White Water Rafting Co Logo" class="logo">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="White Water Rafting Co Logo" class="logo">
+        </div>
 
         <nav>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -30,47 +32,42 @@
     <main>
 
         <!-- HERO SECTION -->
-        <div class="hero">
-            <img src="images/hero.jpg" alt="White Water Rafting Adventure">
-            <h1>White Water Rafting Co</h1>
-
-            <article>
-                <img src="images/client.jpg" alt="Happy rafting client">
-
-                <p>
-                    At White Water Rafting Co, our mission is to deliver thrilling, safe, and
-                    unforgettable river
-                    adventures for individuals, families, and groups of all experience levels. We
-                    are committed to
-                    providing exceptional outdoor experiences that combine excitement, teamwork, and
-                    a deep
-                    appreciation for nature.
-
-                    Our highly trained guides prioritize safety while ensuring that every trip is
-                    engaging,
-                    enjoyable, and memorable. Every journey is more than just a ride down the
-                    river—it is an
-                    opportunity to explore, challenge yourself, and create lasting memories.
-                </p>
-            </article>
-        </div>
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Rafting on a rushing river" class="hero-bg">
+            <div class="hero-content">
+                <h1>White Water Rafting Co</h1>
+                <article class="mission">
+                    <img src="images/client.jpg" alt="A happy client wearing a life jacket">
+                    <p>
+                        At White Water Rafting Co, our mission is to deliver thrilling, safe, and
+                        unforgettable river adventures for individuals, families, and groups of all
+                        experience levels. We are committed to providing exceptional outdoor
+                        experiences that combine excitement, teamwork, and a deep appreciation for
+                        nature.
+                    </p>
+                    <p>
+                        Our highly trained guides prioritize safety while ensuring that every trip
+                        is
+                        engaging and memorable. Every journey is an opportunity to explore,
+                        challenge yourself, and create lasting memories.
+                    </p>
+                </article>
+            </div>
+        </section>
 
         <!-- HISTORY SECTION -->
         <section class="history-section">
-            <h2 class="section-title">History</h2>
-
-            <div class="history-content">
+            <h2 class="section-title">Our History</h2>
+            <div class="history-container">
                 <p>
                     White Water Rafting Co began its journey in 1995 with a passion for adventure
-                    and the outdoors.
+                    and the outdoors. From humble beginnings with a single raft, we now operate
+                    multiple trips daily.
                 </p>
-
-                <img src="images/history.jpg" alt="Rafting history">
-
+                <img src="images/history.jpg" alt="Vintage photo of our first rafting trip">
                 <p>
-                    From humble beginnings with a single raft, we now operate multiple trips daily,
-                    welcoming thousands
-                    of adventurers each season and building a reputation for excellence.
+                    Today, we welcome thousands of adventurers each season and have built a
+                    reputation for excellence, safety, and pure river-running fun.
                 </p>
             </div>
         </section>
@@ -78,34 +75,31 @@
         <!-- ADVENTURE SECTION -->
         <section class="adventure-section">
             <h2 class="section-title">Adventure Awaits You!</h2>
-
             <div class="adventure-gallery">
-
                 <figure>
-                    <img src="images/adventure1.jpg" alt="Los Dientes del Diablo">
+                    <img src="images/adventure1.jpg" alt="Rafting through Los Dientes del Diablo">
                     <figcaption>Los Dientes del Diablo</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/adventure2.jpg" alt="Big Mallard">
+                    <img src="images/adventure2.jpg" alt="Navigating Big Mallard rapids">
                     <figcaption>Big Mallard</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/adventure3.jpg" alt="Half Day Adventure">
+                    <img src="images/adventure3.jpg" alt="Calm waters during Half Day Adventure">
                     <figcaption>Half Day Adventure</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/adventure4.jpg" alt="Rapid Thunder">
+                    <img src="images/adventure4.jpg" alt="Action shot of Rapid Thunder">
                     <figcaption>Rapid Thunder</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/adventure5.jpg" alt="Wild Rush">
+                    <img src="images/adventure5.jpg" alt="A group enjoying Wild Rush">
                     <figcaption>Wild Rush</figcaption>
                 </figure>
-
             </div>
         </section>
 
@@ -114,16 +108,15 @@
     <!-- FOOTER -->
     <footer>
         <p>&copy; 2026 White Water Rafting Co | JUSTICE ABUEDEFE</p>
-
         <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook Icon">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
             </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="Twitter Icon">
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="Twitter">
             </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram Icon">
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
             </a>
         </nav>
     </footer>

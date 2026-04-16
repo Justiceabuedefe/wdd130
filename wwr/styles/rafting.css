@@ -114,6 +114,18 @@ header {
     width: 200px;
 }
 
+/* Grid Layout */
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.grid-item img {
+    width: 100%;
+}
+
 /* PARAGRAPH TEXT */
 section p {
     line-height: 1.5;
@@ -175,37 +187,6 @@ body {
     background-color: #ffffff;
 }
 
-/* 2. Header & Footer Layout */
-.main-header,
-.main-footer {
-    background-color: #230063;
-    /* Light purple from wireframe */
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #230063;
-}
-
-/* 3. Navigation Buttons */
-.nav-menu {
-    display: flex;
-    gap: 2px;
-}
-
-.nav-menu a {
-    background-color: #230063;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 25px;
-    font-size: 14px;
-    transition: background 0.3s;
-}
-
-.nav-menu a:hover {
-    background-color: #f0f0f0;
-}
-
 /* 4. Image Placeholder System */
 .placeholder-img {
     background-color: #E0E0E0;
@@ -221,12 +202,6 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-/* Specific Image Sizes */
-.logo {
-    width: 200px;
-    height: 150px;
 }
 
 .map-graphic {
@@ -453,4 +428,63 @@ body {
 
 .F1 {
     color: #ffffff;
+}
+
+.Experience {
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--blue-overlay);
+    color: var(--text-light);
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+.newsletter input {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+.newsletter input {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #004466;
+    color: white;
+    border: none;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 40px;
+    background-color: #e0f7fa;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077aa;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
 }

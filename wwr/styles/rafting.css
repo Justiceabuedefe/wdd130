@@ -124,6 +124,7 @@ header {
 
 .grid-item img {
     width: 100%;
+    border: 6px solid #004466;
 }
 
 /* PARAGRAPH TEXT */

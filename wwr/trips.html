@@ -7,7 +7,7 @@
     <meta name="description"
       content="White Water Rafting Co offers thrilling, safe, and unforgettable river adventures. Learn about our history and mission.">
     <meta name="author" content="JUSTICE ABUEDEFE">
-    <title>About Us - White Water Rafting Co</title>
+    <title>Trips - White Water Rafting Co</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -22,7 +22,7 @@
         <nav>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -32,77 +32,90 @@
     <main>
 
         <!-- HERO SECTION -->
-        <section class="hero">
-            <img src="images/hero.jpg" alt="Rafting on a rushing river" class="hero-bg">
-            <div class="hero-content">
-                <h1>White Water Rafting Co</h1>
-                <article class="mission">
-                    <h2 class="mission">Our Mission</h2>
-                    <img src="images/client.jpg" alt="A happy client wearing a life jacket">
-                    <p>
-                        At White Water Rafting Co, our mission is to deliver thrilling, safe, and
-                        unforgettable river adventures for individuals, families, and groups of all
-                        experience levels. We are committed to providing exceptional outdoor
-                        experiences that combine excitement, teamwork, and a deep appreciation for
-                        nature.
-                    </p>
-                    <p>
-                        Our highly trained guides prioritize safety while ensuring that every trip
-                        is
-                        engaging and memorable. Every journey is an opportunity to explore,
-                        challenge yourself, and create lasting memories.
-                    </p>
-                </article>
-            </div>
+        <section class="trips-hero">
+            <h1>Choose Your Adventure</h1>
+            <p>Experience the thrill of white water rafting with our guided trips for all skill
+                levels.</p>
+            <a href="contact.html" class="cta-button">Contact Us to Book Your Trip</a>
         </section>
 
-        <!-- HISTORY SECTION -->
-        <section class="history-section">
-            <h2 class="section-title">Our History</h2>
-            <div class="history-container">
+        <!-- TRIP DESCRIPTIONS -->
+        <section class="trip-grid">
+
+            <article class="trip-card">
+                <img src="images/adventure3.jpg" alt="Beginner rafting trip">
+                <h2>Beginner Rapids</h2>
                 <p>
-                    White Water Rafting Co began its journey in 1995 with a passion for adventure
-                    and the outdoors. From humble beginnings with a single raft, we now operate
-                    multiple trips daily.
+                    Perfect for families and first-time rafters. Enjoy a scenic ride with mild
+                    rapids
+                    and plenty of time to take in the beautiful surroundings.
                 </p>
-                <img src="images/history.jpg" alt="Vintage photo of our first rafting trip">
+                <p><strong>Duration:</strong> 2 Hours</p>
+                <p><strong>Difficulty:</strong> Easy</p>
+            </article>
+
+            <article class="trip-card">
+                <img src="images/adventure4.jpg" alt="Intermediate rafting trip">
+                <h2>Intermediate Adventure</h2>
                 <p>
-                    Today, we welcome thousands of adventurers each season and have built a
-                    reputation for excellence, safety, and pure river-running fun.
+                    A fun and exciting trip with moderate rapids. Ideal for those looking for a bit
+                    more challenge while still enjoying the ride.
                 </p>
-            </div>
+                <p><strong>Duration:</strong> 4 Hours</p>
+                <p><strong>Difficulty:</strong> Moderate</p>
+            </article>
+
+            <article class="trip-card">
+                <img src="images/adventure5.jpg" alt="Advanced rafting trip">
+                <h2>Extreme Rapids</h2>
+                <p>
+                    For thrill-seekers only! Navigate intense rapids and experience the ultimate
+                    adrenaline rush with our expert guides.
+                </p>
+                <p><strong>Duration:</strong> Full Day</p>
+                <p><strong>Difficulty:</strong> Hard</p>
+            </article>
+
         </section>
 
-        <!-- ADVENTURE SECTION -->
-        <section class="adventure-section">
-            <h2 class="section-title">Adventure Awaits You!</h2>
-            <div class="adventure-gallery">
-                <figure>
-                    <img src="images/adventure1.jpg" alt="Rafting through Los Dientes del Diablo">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                </figure>
 
-                <figure>
-                    <img src="images/adventure2.jpg" alt="Navigating Big Mallard rapids">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
+        <!-- TRIPS TABLE -->
+        <section class="trip-table">
+            <h2>All Available Trips</h2>
 
-                <figure>
-                    <img src="images/adventure3.jpg" alt="Calm waters during Half Day Adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Difficulty</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
 
-                <figure>
-                    <img src="images/adventure4.jpg" alt="Action shot of Rapid Thunder">
-                    <figcaption>Rapid Thunder</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/adventure5.jpg" alt="A group enjoying Wild Rush">
-                    <figcaption>Wild Rush</figcaption>
-                </figure>
-            </div>
+                <tbody>
+                    <tr>
+                        <td>Beginner Rapids</td>
+                        <td>Easy</td>
+                        <td>2 Hours</td>
+                        <td>$50</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate Adventure</td>
+                        <td>Moderate</td>
+                        <td>4 Hours</td>
+                        <td>$85</td>
+                    </tr>
+                    <tr>
+                        <td>Extreme Rapids</td>
+                        <td>Hard</td>
+                        <td>Full Day</td>
+                        <td>$120</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
+
 
     </main>
 

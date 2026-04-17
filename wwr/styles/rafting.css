@@ -187,13 +187,6 @@ footer {
     padding: 0;
 }
 
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    color: #000000;
-    line-height: 1.6;
-    background-color: #ffffff;
-}
-
 /* 4. Image Placeholder System */
 .placeholder-img {
     background-color: #E0E0E0;
